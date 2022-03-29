@@ -9,6 +9,6 @@ class DateHelper{
         return time();
     }
     public function getCurrentDateTime(){
-        return Date('d-m-y h:m:s');
+        return Date('l jS \of F Y h:i:s A');
     }
 }

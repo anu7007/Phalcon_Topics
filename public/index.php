@@ -19,7 +19,7 @@ use Phalcon\Config\ConfigFactory;
 // Define some absolute path constants to aid in locating resources
 define('BASE_PATH', dirname(__DIR__));
 define('APP_PATH', BASE_PATH . '/app');
-
+date_default_timezone_set('Asia/Kolkata');
 // Register an autoloader
 $loader = new Loader();
 
